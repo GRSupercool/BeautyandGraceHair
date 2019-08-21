@@ -1,0 +1,5 @@
+/* flexbox grid doesnt add margins, margin auto pushes everything in the container to the center*/
+
+.container{
+    margin:auto;
+}
