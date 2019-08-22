@@ -3,3 +3,9 @@
 .container{
     margin:auto;
 }
+
+/* move image to the left side of the section,make it responsive by using percents*ors et to size of the container*/
+img{
+    width:100%;
+
+}
