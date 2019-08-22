@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Beautyand Grace Hair</title>
+    <title>Beauty and Grace Hair</title>
     <link rel="stylesheet" href="css/flexboxgrid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontawesome.css">
@@ -22,23 +22,24 @@
         addig a row and flex box grid floats li to the right. The a href's are the additional webapges. div classes for columns are specified when thier are varying  size columns in the page. select col, col size, col number, col xs 12 is for mobile devices reference flexboxgrid.com-->
     <header id="main-header">
         <div class="container">
-            <div class="row end-sm end-med end-lg"></div>
+            <div class="row end-xs end-sm end-med end-lg">
             <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                 <h1>Beauty and Grace Hair</h1>
             </div>
             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10"></div>
             <nav id="navbar">
                 <ul>
-                    <li><a href="index.html"></a>WHO WE ARE</li>
-                    <li><a href="services.html"></a>SERVICES</li>
-                    <li><a href="BGkids.html"></a>BG KIDS</li>
-                    <li><a href="contact.html"></a>CONTACT</li>
+                    <li><a href="#whoweare" class="btn">WHO WE ARE</a></li>
+                    <li><a href="#services" class="btn">SERVICES</a></li>
+                    <li><a href="#BGKids" class="btn">BG KIDS</a></li>
+                    <li><a href="#contact" class="btn">CONTACT</a></li>
                 </ul>
+                
             </nav>
         </div>
         </div>
     </header>
-    <!----Showcase--- The show case is the image at the top of the landing page, some call it the hero image. use sections for html 5 tags creare a showcase div, 
+    <!----Showcase--- The show case is the image at the top of the landing page, some call it the hero image. use sections for html 5 tags create a showcase div, 
         create a container after the image so image goes across the whole page, create a div class row to span the page, We use spans for inline elements, divs are block level elements. h1 is for headers p is for paragraphs and text in Div column add col col size and col number rows are for alignment for devices, 
         list align and size considering the device your page is on its safer to use all sizes. select your row position in size in the center of a rectagle,
          I want my content to be in the middle and center of the rectangle -->
@@ -52,78 +53,8 @@
             </div>
         </div>
     </section>
-    <!---Services-- Id created for unique page features that arent replicated on the page, created a container for this section to differiented styling, content and functionality, 
-    grids on grids on grids-nested grids- 12 colum grid with three four column grids- have to set them to four to get three.
-    Created rows to organize the text and image on the page, for this section there is two rows, 
-    columns that are set with col, col size and col number for devices with varying screen sizes.Align row content as if it were in the middle of rectangle center and middle for each size.--->
-    <section id="services">
-        <div class="container">
-            <div class="row center-xs center-sm center-md center-lg">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>Services</h2>
-                    <p>Braid, Protective Styles, and Infrared Sauna </p>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <h4>Box Braids</h4>
-                    <p>$130.00 require 4 packs of synthetic hair</p>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <h4>Tribal Braids</h4>
-                    <p>$130.00 require 4 packs of synthetic hair</p>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <h4>Cornrows</h4>
-                    <p>$85.00 require 3 packs of synthetic hair</p>
-                </div>
-            </div>
-            <!---second row , place images under col div, copy div class columns, headers and paragraphs and paste three times. Add an i class for icons  fa fa -iconname-->
-            <div class="row center-xs center-sm center-md center-lg ">
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <h4>Feedin Braid Ponytail</h4>
-                    <p>$120.00 require 3 packs of synthetic hair</p>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <h4>Crochet Faux Locs</h4>
-                    <p>$160.00 requires 3 packs of synthetic hair</p>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <h4>Knotless Braids</h4>
-                    <p>$130.00 require 4 packs of synthetic hair</p>
-                </div>
-                <div class="row center-xs center-sm center-md center-lg">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <h4>Halo Crowns</h4>
-                        <p>$85.00 require 2 packs of synthetic hair</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <h4>Plats</h4>
-                        <p>$50.00 No synthetic Hair Required</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <h4>Mens Half Head or Top Braids</h4>
-                        <p>$40.00 No synthetic Hair Required</p>
-                    </div>
-                    <!---Row 2 copy first row div 3 times-->
 
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <h4>Protective Styles</h4>
-                        <p>$60.00 No synthetic Hair Required</p>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <h4>Two Feed In Braids</h4>
-                        <p>$50.00 2 packs of sythetic Hair Required</p>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <h4>Infrared Sauna- Detox Blanket Treatement </h4>
-                        <p>$45.00 Long sleeves, long pants, and socks Required </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!---WHO WE ARE create unique section ID, Id arent replicated in the page, create div class container for thiis specific sectiion, create rows, create columns, section header h4, section content p, add measurements adn alignment for rows with row size adn number xs-lg, add columns, col,size, and col number xs-lg.
+    <!---WHO WE ARE create unique section ID, Id arent replicated in the page, create div class container for this specific section, create rows, create columns, section header h4, section content p, add measurements adn alignment for rows with row size adn number xs-lg, add columns, col,size, and col number xs-lg.
     add alt descriptions for screen reader. Align rows by setting the images in the middle of the rectangle with center dash size, middle dash sizes xs-lg-->
     <section id="whoweare">
         <div class="container">
@@ -146,11 +77,95 @@
                 </div>
             </div>
         </div>
-
     </section>
 
+
+    <!---Services-- Id created for unique page features that arent replicated on the page, created a container for this section to differiented styling, content and functionality, 
+    grids on grids on grids-nested grids- 12 colum grid with three four column grids- have to set them to four to get three.
+    Created rows to organize the text and image on the page, for this section there is two rows, 
+    columns that are set with col, col size and col number for devices with varying screen sizes.Align row content as if it were in the middle of rectangle center and middle for each size.--->
+    <section id="services">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2><u>Services</u></h2>
+                    <p>Braid, Protective Styles, and Infrared Sauna </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Box Braids</h4>
+                    <p>$130.00 require 4 packs of synthetic hair</p>
+                   <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Tribal Braids</h4>
+                    <p>$130.00 require 4 packs of synthetic hair</p>
+                    <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Cornrows</h4>
+                    <p>$85.00 require 3 packs of synthetic hair</p>
+                   <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                </div>
+            </div>
+
+            <!---second row , place images under col div, copy div class columns, headers and paragraphs and paste three times. Add an i class for icons  fa fa -iconname-->
+            <div class="row center-xs center-sm center-md center-lg ">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Feedin Braid Ponytail</h4>
+                    <p>$120.00 require 3 packs of synthetic hair</p>
+                  <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Crochet Faux Locs</h4>
+                    <p>$160.00 requires 3 packs of synthetic hair</p>
+                   <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Knotless Braids</h4>
+                    <p>$130.00 require 4 packs of synthetic hair</p>
+                    <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                </div>
+                <div class="row center-xs center-sm center-md center-lg">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h4>Halo Crowns</h4>
+                        <p>$85.00 require 2 packs of synthetic hair</p>
+                       <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h4>Plats</h4>
+                        <p>$50.00 No synthetic Hair Required</p>
+                        <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h4>Mens Half Head or Top Braids</h4>
+                        <p>$40.00 No synthetic Hair Required</p>
+                       <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                    </div>
+                    <!---Row 2 copy first row div 3 times-->
+
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h4>Protective Styles</h4>
+                        <p>$60.00 No synthetic Hair Required</p>
+                      <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h4>Two Feed In Braids</h4>
+                        <p>$50.00 2 packs of sythetic Hair Required</p>
+                     <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h4>Infrared Sauna- Detox Blanket Treatement </h4>
+                        <p>$45.00 Long sleeves, long pants, and socks Required </p>
+                      <button><a href="book.html" class="btn">Schedule Appointment</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!---BGHKids create an id unique for this section, sections are html 5 tags, create a div class container, create a div class row, create a div class col, create a header, create content, create col for image, add image,close div after image. align row with position dash size for xs-lg, add clo for reposiveness with format col-dashsize-col number with sizes xs-large-->
-    <section id="BGHKids">
+    <section id="BGKids">
         <div class="container">
             <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -206,21 +221,42 @@
     </section>
     <!---Contact  section a unique section id, three div classes -container, row, column.
              align row with position dash size format from xs-large , middle xs- lg. colum format col dash size dash column number xs-lg. 
-             add any images, close div create anothercolumn add headerh2- paragraph-->
+             add any images, close div create anothercolumn add headerh2- paragraph.
+             create ul with three li items, use i class for fontawesome icons. add row creatng two new div classes with col, header, paragraphs. create button for appointment with button type, name, button name--->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <h4>Contact</h4>
                     <ul>
-                        <li><i class="fas fa-mobile-alt"></i>206.555.7777</li>
-                        <li><i class="far fa-envelope-open"></i>beautyandgracehair@gmail.com</li>
-                        <li><i class="fab fa-instagram"></i>beautyandgracehairseattle</li>
+                        <li><i class="fas fa-mobile-alt"></i> 206.555.7777</li>
+                        <li><i class="far fa-envelope-open"></i> beautyandgracehair@gmail.com</li>
+                        <li><i class="fab fa-instagram"></i> beautyandgracehairseattle</li>
                     </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Who We Are</h4>
+                    <p>Beauty and Grace Hair is mobil boutique, meaning we bring technicians to you. Enjoy being
+                        pampered in your home while we do all the work</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <h4>Schedule An Appointment</h4>
+                  <button> <a href="book.html" class="btn">Schedule Appointment</a></button>
                 </div>
             </div>
         </div>
     </section>
+    <!---footer-- start footer with footer id, create three div classes container, row, col align row ith format with position center dash size xs-lg.
+        add p tags for copyright-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-large-12">
+                    <p>Copyright GeorginaUXRamirez 2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
