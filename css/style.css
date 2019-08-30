@@ -1,7 +1,7 @@
 /* flexbox grid doesnt add margins, margin auto pushes everything in the container to the center*/
 
 body{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Raleway',sans;
     font-size:17px;
     line-height:1.5em;
     margin:0;
@@ -19,8 +19,16 @@ img{
 /* # is used for ID elements, . for class elements,*/
 
 #main-header{
-    border-bottom:.5px solid white;
+    border-bottom:.5px solid white;   
+}
+#showcase img{
+    width:100%;
+    height:100%;
     
+}
+#showcase{
+    background-color:#1c1c1c;
+
 }
 
 #navbar li{
@@ -39,34 +47,37 @@ padding-bottom:3px;
 }
 
 #whoweare{
-    background:#f3efe8;
+    background-color:#f3efe8; 
+    padding-top:70px;
+    padding-bottom:50px;
     
 }
 #whoweare p{
     color:#b2986c;
-    padding-left:50px;
-    margin-left:50px;
     margin-top:10px;
     font-stretch:semi-expanded;
     float:right;
+    padding-left:50px;
 }
 #whoweare h2{
-    font-size:60px;
+    font-size:50px;
     font-stretch:semi-expanded;
     font-style:initial;
     text-align:center;
     color:#b2986c;
-    text-decoration-line:underline;
+    align-content:space-around;
+    border-bottom: 1.5px solid;
+    padding-bottom:40px;
+    
 }
 #services{
-    background:#f3efe8;
     padding-top:30px;
+    font-stretch:semi-expanded;
+     padding-bottom:40px;
 }
 #services p{
     color:#b2986c;
-    padding-left:10px;
-    margin-left:10px;
-    margin-top:50px;
+    font-stretch:semi-expanded;
     
    
 }
@@ -75,7 +86,90 @@ padding-bottom:3px;
     font-style:initial;
     text-align:center;
     color:#b2986c;
-    text-decoration-line:underline;
+    border-bottom: 1.5px solid;
+    padding-bottom:40px;
+   
+}
+#services h4{
+    font-style:bold;
+    color:#b2986c;
+    margin:0;
+    padding:0;
+}
+#services li{
+    list-style:none;
+    color:#b2986c;  
+    margin:0px;
+}
+
+#services .btn{
+ border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 12px 25px;
+  font-size: 14px;
+  cursor: pointer;   
+  text-decoration:none;
+}
+ #services .btn:hover{
+  background:#b2986c;
+  color: white;
+  transition:0.5s;
+ }
+     #BGKids{
+        background-color:#f3efe8; 
+        padding-top:70px;
+        padding-bottom:50px;
+     }
+
+#BGKids p{
+    color:#b2986c;
+    margin-top:10px;
+    font-stretch:semi-expanded;
+    padding-left:50px;
+}
+
+#BGKids h2{
+    font-size:50px;
+    font-stretch:semi-expanded;
+    font-style:initial;
+    text-align:center;
+    color:#b2986c;
+    align-content:space-around;
+    border-bottom: 1.5px solid;
+    padding-bottom:40px;
+} 
+#BGKids .img{
+    float:right;
+    display:right
+}
+#MakeAnAppointment{
+    background-color:#b2986c; 
+    padding-top:70px;
+    padding-bottom:50px;
+}
+#MakeAnAppointment p{
+    color:white;
+    margin-top:10px;
+    font-stretch:semi-expanded;
+    padding-left:50px;
+    font-size:16px;
+  
+}
+#MakeAnAppointment h2{
+    font-size:30px;
+    font-style:initial;
+    text-align:center;
+    color:white;
+    border-bottom: 1.5px solid;
+    padding-bottom:40px;
+    
+}
+#MakeAnAppointment h5{
+    font-size:15px;
+    color:white;
+    text-align:left;
+    padding-left:50px;
 }
 #map{
     height:300px;
