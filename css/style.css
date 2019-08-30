@@ -55,35 +55,30 @@ padding-bottom:3px;
 #whoweare p{
     color:#b2986c;
     margin-top:10px;
-    font-stretch:semi-expanded;
-    float:right;
     padding-left:50px;
 }
 #whoweare h2{
     font-size:50px;
-    font-stretch:semi-expanded;
-    font-style:initial;
     text-align:center;
     color:#b2986c;
-    align-content:space-around;
     border-bottom: 1.5px solid;
     padding-bottom:40px;
     
 }
 #services{
     padding-top:30px;
-    font-stretch:semi-expanded;
      padding-bottom:40px;
+     
 }
 #services p{
     color:#b2986c;
-    font-stretch:semi-expanded;
+
+    
     
    
 }
 #services h2{
     font-size:60px;
-    font-style:initial;
     text-align:center;
     color:#b2986c;
     border-bottom: 1.5px solid;
@@ -125,35 +120,31 @@ padding-bottom:3px;
 #BGKids p{
     color:#b2986c;
     margin-top:10px;
-    font-stretch:semi-expanded;
     padding-left:50px;
+    column-gap:20px;
 }
 
 #BGKids h2{
     font-size:50px;
-    font-stretch:semi-expanded;
     font-style:initial;
     text-align:center;
     color:#b2986c;
-    align-content:space-around;
     border-bottom: 1.5px solid;
     padding-bottom:40px;
-} 
-#BGKids .img{
-    float:right;
-    display:right
+
 }
 #MakeAnAppointment{
     background-color:#b2986c; 
-    padding-top:70px;
-    padding-bottom:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
 }
 #MakeAnAppointment p{
     color:white;
-    margin-top:10px;
-    font-stretch:semi-expanded;
-    padding-left:50px;
-    font-size:16px;
+    font-size:14px;
+    margin:5px;
+    line-height:25px;
+    
   
 }
 #MakeAnAppointment h2{
@@ -162,15 +153,29 @@ padding-bottom:3px;
     text-align:center;
     color:white;
     border-bottom: 1.5px solid;
-    padding-bottom:40px;
+    padding-bottom:20px;
+   
+    
     
 }
 #MakeAnAppointment h5{
     font-size:15px;
     color:white;
-    text-align:left;
-    padding-left:50px;
+    margin:0px;
+    font:bold;
+   
+    
+   
 }
+#MakeAnAppointment img{
+    width:55%;
+    height:100%;
+    float:right;
+    padding-top:20px;
+    padding-left:150px;
+   
+}
+
 #map{
     height:300px;
     width:100%;
