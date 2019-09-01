@@ -31,7 +31,7 @@ I used some ES6 standard for HTML, Css and Javascript a skill learned throughout
 
 
 5.Provide a usable experience across modern web browsers (including the latest versions of Edge/IE, Chrome, Safari, Firefox) and mobile experiences (including iOS and Android browsers).
-I created a  responsive website by  using the meta and viewport tags for reposiveness across devices, used percentages in my CSS. Google Developers has a responsive web design basics on the developers.google.com under web fundementals, traversy media has tutorials online if you are interested in this resource that include reading materials and video tutorials.This is a skill aquired throughout the certification program.
+I created a  responsive website by  using the meta and viewport tags for reposiveness across devices, used percentages in my CSS. Google Developers has a responsive web design basics on the developers.google.com under web fundementals, traversy media, has tutorials online if you are interested in this resource that include reading materials and video tutorials.I added a favicon using favicon-generator.com. I created a favicon using canva, downloaded the png uploaded the png to favicon-generator.com. you can view videos on youtbe if needed. This is a skill aquired throughout the certification program.
 
 
 
