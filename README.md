@@ -16,8 +16,7 @@ My career goals include web development, user design and leaderhip at a company,
 2.Express your plans to complete the project using wireframes, design comps, palettes, and other planning documents.
 My project plans were submitted to the instructor in the beginning of the course. 
 
-
-
+ 
 
 3. Create a development environment suitable for working with your chosen technology.
 I created a repository  on github, purchased a domain name, and utilized git, github and Visual Code studio to launch the project, there are Youtube video tutorials on line, though this is a technique learned throughout the Web development cetification program. 
