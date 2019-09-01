@@ -25,7 +25,7 @@ I created a repository  on github, purchased a domain name, and utilized git, gi
 
 
 4.Use standards-compliant HTML, CSS and JavaScript.
-I used some ES6 standard for HTML, Css and Javascript a skill learned throughout the program.
+I used some ES6 standard for HTML, Css and Javascript a skill learned throughout the program.I used a flexgrid, a feautre found on flexgrid.com. 
 
 
 
