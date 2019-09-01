@@ -2,7 +2,7 @@ Beauty and Grace Hair
 
 PROJECT REQUIREMENTS: 
 
-This project  started out as an oppotrunity to build a website for a business, meet a capstone requirements for an academic  program and a project to utilize use my API, Javascript, HTML and CSS skills. 
+This project  started out as an opportunity to build a website for a business, meet a capstone requirements for an academic  program and a project to utilize use my API, Javascript, HTML and CSS skills. 
 
 The project requirements for Web Develpment program at Seattle University included the following:
 
