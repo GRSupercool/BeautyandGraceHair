@@ -1,265 +1,309 @@
 /* flexbox grid doesnt add margins, margin auto pushes everything in the container to the center*/
 
-body{
-    font-family:'Raleway',sans;
-    font-size:17px;
-    line-height:1.5em;
-    margin:0;
-    padding:30px 30px;
-    
+body {
+    font-family: 'Raleway', sans;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 30px 30px;
+
 }
-.container{
-    margin:auto;
+
+.container {
+    margin: auto;
 }
 
 /* move image to the left side of the section,make it responsive by using percents*ors et to size of the container*/
-img{
-    max-width:100%;
-    max-height:100%;
+img {
+    max-width: 100%;
+    max-height: 100%;
 
 }
+
 /* # is used for ID elements, . for class elements,*/
 
-#main-header{
-    border-bottom:.5px solid white;   
+#main-header {
+    border-bottom: .5px solid white;
     max-width: 100%;
-    max-height:100%;
+    max-height: 100%;
 }
-#showcase img{
-    max-width:100%;
-    max-height:100%;
-    
-}
-#showcase{
-    background-color:#1c1c1c;
-    max-width:100%;
-    max-height:100%;
+
+#showcase img {
+    max-width: 100%;
+    max-height: 100%;
 
 }
 
-#navbar li{
-    display:inline;
-    padding-right:20px;
-    list-style:none;
-    
-    
-}
-#navbar a{
-    text-decoration:none;
-    color:#b2986c;
-    
-}
-#navbar li.current a, #navbar a:hover{
-color:#b2986c;
-border-bottom:3px solid white;
-padding-bottom:3px;
+#showcase {
+    background-color: #1c1c1c;
+    max-width: 100%;
+    max-height: 100%;
 
 }
 
-#navbar .btn1{
-    border:2px solid #b2986c;
-    background:#b2986c;
-    color:white;
-    border-radius:15px;
-    padding:5px 5px 5px 5px;
-    
-}
 
 
-#whoweare{
-    background-color:#f3efe8; 
-    padding-top:70px;
-    padding-bottom:50px;
-    max-width:100%;
-    max-height:100%;
-    
+
+#whoweare {
+    background-color: #f3efe8;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+
 }
-#whoweare p{
-    color:#b2986c;
-    margin-top:10px;
-    padding-left:50px;
-    max-width:100%;
-    max-height:100%;
+
+#whoweare p {
+    color: #b2986c;
+    margin-top: 10px;
+    padding: 0 20px;
+    max-width: 100%;
+    max-height: 100%;
 }
-#whoweare h2{
-    font-size:50px;
-    text-align:center;
-    color:#b2986c;
+
+#whoweare h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #b2986c;
     border-bottom: 1.5px solid;
-    padding-bottom:40px;
-    max-width:100%;
-    max-height:100%;
-    
-}
-#services{
-    padding-top:30px;
-     padding-bottom:40px;
-     max-width:100%;
-     max-height:100%;
-     
-}
-#services p{
-    color:#b2986c;
-    max-width:100%;
-    max-height:100%;
+    padding-bottom: 40px;
+    max-width: 100%;
+    max-height: 100%;
 
-    
-    
-   
 }
-#services h2{
-    font-size:60px;
-    text-align:center;
-    color:#b2986c;
+
+#services {
+    margin-bottom: 5rem;
+}
+
+#services p {
+    color: #b2986c;
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+#services h2 {
+
+    text-align: center;
+    color: #b2986c;
     border-bottom: 1.5px solid;
-    padding-bottom:40px;
-    max-width:100%;
-    max-height:100%;
-   
-}
-#services h4{
-    font-style:bold;
-    color:#b2986c;
-    margin:0;
-    padding:0;
-    max-width:100%;
-    max-height:100%;
-}
-#services ul{
-    margin-top:-11px;
-    padding:0px;
-}
-#services li{
-    list-style:none;
-    color:#b2986c;  
-    margin:0px;
-}
-
-#services .btn{
- border: 1px solid black;
-  background-color: white;
-  color: black;
-  padding: 12px 25px;
-  font-size: 14px;
-  cursor: pointer;   
-  text-decoration:none;
-  max-width:100%;
-  max-height:100%;
-  box-shadow:0 8px 6px -6px #1c1c1c;
-  border-radius:15px;
-}
- #services .btn:hover{
-  background:black;
-  color: white;
-  transition:0.5s;
-  max-width:100%;
-  max-height:100%;
- }
-     #BGKids{
-        background-color:#f3efe8; 
-        padding-top:70px;
-        padding-bottom:50px;
-        max-width:100%;
-        max-height:100%;
-     }
-
-#BGKids p{
-    color:#b2986c;
-    margin-top:10px;
-    padding-left:50px;
-    column-gap:20px;
-    max-width:100%;
-    max-height:100%;
-}
-
-#BGKids h2{
-    font-size:50px;
-    font-style:initial;
-    text-align:center;
-    color:#b2986c;
-    border-bottom: 1.5px solid;
-    padding-bottom:40px;
-    max-width:100%;
-    max-height:100%;
+    padding-bottom: 40px;
+    max-width: 100%;
+    max-height: 100%;
 
 }
-#MakeAnAppointment{
-    background-color:#b2986c; 
-    padding-top:20px;
-    padding-bottom:20px;
-    max-width:100%;
-    max-height:100%;
-    
-}
-#MakeAnAppointment p{
-    color:white;
-    font-size:14px;
-    margin:5px;
-    line-height:25px;
-    max-width:100%;
-    max-height:100%;
-    
-  
-}
-#MakeAnAppointment h2{
-    font-size:30px;
-    font-style:initial;
-    text-align:center;
-    color:white;
-    border-bottom: 1.5px solid;
-    padding-bottom:20px;
-    max-width:100%;
-    max-height:100%;
-   
-    
-    
-}
-#MakeAnAppointment h5{
-    font-size:15px;
-    color:white;
-    margin:0px;
-    font:bold;
-    max-width:100%;
-    max-height:100%;   
-}
-#MakeAnAppointment img{
-    float:right;
-    padding-top:20px;
-    padding-left:150px;
-    max-width:70%;
-    max-height:70%;
-    margin:auto;  
+
+#services h4 {
+    font-style: bold;
+    color: #b2986c;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-#contact li{
-    list-style:none;
-
+#services ul {
+    margin-top: -11px;
+    padding: 0px;
 }
-#contact .btn{
- border: 1px solid black;
-  background-color: white;
-  color: black;
-  padding: 12px 25px;
-  font-size: 14px;
-  cursor: pointer;   
-  text-decoration:none;
-  max-width:100%;
-  max-height:100%;
-  box-shadow:0 8px 6px -6px #1c1c1c;
-  border-radius:15px;
 
+#services li {
+    list-style: none;
+    color: #b2986c;
+    margin: 0px;
 }
-#contact .btn:hover{
-    background:#0e0d0d;
+
+#services .btn {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 12px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 8px 6px -6px #1c1c1c;
+    border-radius: 15px;
+}
+
+#services .btn:hover {
+    background: black;
     color: white;
-    transition:0.5s;
-    max-width:100%;
-    max-height:100%;
+    transition: 0.5s;
+    max-width: 100%;
+    max-height: 100%;
 }
-#map{
-    width:100%;
-    height:400px;
-    background-color:#e1d7c6;
+
+#BGKids {
+    background-color: #f3efe8;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#BGKids p {
+    color: #b2986c;
+    margin-top: 10px;
+    padding: 0 20px;
+    column-gap: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#BGKids h2 {
+    font-size: 50px;
+    font-style: initial;
+    text-align: center;
+    color: #b2986c;
+    border-bottom: 1.5px solid;
+    padding-bottom: 40px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+#MakeAnAppointment {
+    background-color: #b2986c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+#MakeAnAppointment p {
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    line-height: 25px;
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+#MakeAnAppointment h2 {
+    font-size: 30px;
+    font-style: initial;
+    text-align: center;
+    color: white;
+    border-bottom: 1.5px solid;
+    padding-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+
+
+
+}
+
+#MakeAnAppointment h5 {
+    font-size: 15px;
+    color: white;
+    margin: 0px;
+    font: bold;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#MakeAnAppointment img {
+    /* float: right; */
+    padding-top: 20px;
+    padding-left: 150px;
+    max-width: 70%;
+    max-height: 70%;
+    margin: auto;
+}
+
+#contact li {
+    list-style: none;
+
+}
+
+#contact .btn {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 12px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 8px 6px -6px #1c1c1c;
+    border-radius: 15px;
+
+}
+
+#contact .btn:hover {
+    background: #0e0d0d;
+    color: white;
+    transition: 0.5s;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: #e1d7c6;
+
+}
+
+/* NEW */
+
+
+.service-button {
+    margin: 0 auto;
+}
+
+/* larger screens */
+@media only screen and (min-width: 768px) {
+    .service {
+        position: relative;
+    }
+
+    .service-button {
+        position: absolute;
+        bottom: -30px;
+        transform: translateX(50%);
+    }
+
+    #services h2 {
+        font-size: 60px;
+    }
+
+    .service {
+        position: relative;
+    }
+
+    .service ul {
+        margin-bottom: 3rem;
+    }
+}
+
+/* smaller screens */
+@media only screen and (max-width: 768px) {
+
+    .service ul {
+        margin-bottom: 3rem;
+    }
+
+    .service-button {
+        margin-bottom: 2rem;
+    }
     
+}
+@media only screen and (min-width: 768px) and (max-width: 900px){
+    #contact {
+        font-size: 14px;
+    }
+}
+
+.appt-text {
+    padding-left: 5rem;
 }
 
